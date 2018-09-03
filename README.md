@@ -5,8 +5,8 @@ A customer would like to have a native mobile application that displays a simple
     • Title
     • Description (optional)
     
-The data set is hosted in Google Docs as a spreadsheet: https://docs.google.com/spreadsheets/d/ 1LBqh0GRQxpZQhdpG_OR2IQaH16oCNgjIuWaYCJdWzl4/edit?usp=sharing
-The spreadsheet is accessible as a CSV file through the following link: https://docs.google.com/ spreadsheets/d/1LBqh0GRQxpZQhdpG_OR2IQaH16oCNgjIuWaYCJdWzl4/export?formate=csv
+The data set is hosted in Google Docs as a spreadsheet: https://docs.google.com/spreadsheets/d/1LBqh0GRQxpZQhdpG_OR2IQaH16oCNgjIuWaYCJdWzl4/edit?usp=sharing
+The spreadsheet is accessible as a CSV file through the following link: https://docs.google.com/spreadsheets/d/1LBqh0GRQxpZQhdpG_OR2IQaH16oCNgjIuWaYCJdWzl4/export?formate=csv
 The customer is responsible for the contents of this spreadsheet and therefor the data is not always reliable. For example, the size of the images is not guaranteed to be optimized for use in a mobile application.
 
 ## The Task
