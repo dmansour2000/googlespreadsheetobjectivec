@@ -1,3 +1,4 @@
+<img src="http://starwalletlabs.com/images/logo-new.png" height="200" />
 # The Assignment
 ## Brief 
 A customer would like to have a native mobile application that displays a simple data set. The data consists of:
