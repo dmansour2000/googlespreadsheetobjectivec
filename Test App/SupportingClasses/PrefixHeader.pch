@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  Test App
+//
+//  Created by Dina Mansour on 9/8/18.
+//  Copyright © 2018 StarWallet Labs. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <CoreData/CoreData.h>
+#import <RestKit/RestKit.h>
+#import "Constants.h"
+#import "UIHelper.h"
+#import "ClientManager.h"
+#import "BFKit.h"
+#import "Localisator.h"
+#import "Logger.h"
+#import "AppDelegate.h"
+#import "DatabaseHelper.h"
+#import "Reachability.h"
+
+#endif /* PrefixHeader_pch */

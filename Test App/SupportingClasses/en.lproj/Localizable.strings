@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Test App
+
+  Created by Dina Mansour on 9/8/18.
+  Copyright © 2018 StarWallet Labs. All rights reserved.
+*/
+
+"NoNetworkMSG" = "Please check your network connection or try again later";
+"Error" = "Error";
