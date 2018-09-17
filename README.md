@@ -7,9 +7,9 @@ The mobile application displays a simple data set. The data consists of:
 - Description (optional)
     
 The data set is hosted in Google Docs as a spreadsheet: 
-https://drive.google.com/file/d/1tZJ13FikGkuw_HmmTLhY9QOTyZ5DeJm6tXM7oVAYetE/view?usp=sharing
+https://docs.google.com/spreadsheets/d/1tZJ13FikGkuw_HmmTLhY9QOTyZ5DeJm6tXM7oVAYetE/view?usp=sharing
 
 The spreadsheet is accessible as a CSV file through the following link:
-https://drive.google.com/file/d/1tZJ13FikGkuw_HmmTLhY9QOTyZ5DeJm6tXM7oVAYetE/export?formate=csv
+https://docs.google.com/spreadsheets/d/1tZJ13FikGkuw_HmmTLhY9QOTyZ5DeJm6tXM7oVAYetE/export?formate=csv
 
 
