@@ -1,4 +1,4 @@
-# Example Source Code Using on How to Access a Google SpreadSheet on Google Drive 
+# Example Objective-C Source Code Using RestKit on How to Access a Google SpreadSheet on Google Drive 
 
 ## Brief 
 The mobile application displays a simple data set. The data consists of:
