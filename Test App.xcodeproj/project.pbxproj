@@ -34,7 +34,6 @@
 		ED196C4E214430D000BD4F5F /* Localisator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED196C4D214430D000BD4F5F /* Localisator.m */; };
 		ED196C5221443A0D00BD4F5F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = ED196C5121443A0D00BD4F5F /* bg.png */; };
 		ED196C5421443A1300BD4F5F /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED196C5321443A1300BD4F5F /* bg2.png */; };
-		ED196C5621443AA700BD4F5F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ED196C5521443AA700BD4F5F /* logo.png */; };
 		ED196C5921443DAB00BD4F5F /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED196C5821443DAB00BD4F5F /* DatabaseHelper.m */; };
 		ED196C5E21443E8D00BD4F5F /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED196C5D21443E8D00BD4F5F /* ImageModel.m */; };
 		ED196C6421443F2E00BD4F5F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED196C6221443F2E00BD4F5F /* MainViewController.m */; };
@@ -50,6 +49,7 @@
 		ED196CB32144A7B100BD4F5F /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED196CB12144A7B100BD4F5F /* HeaderTableViewCell.xib */; };
 		ED196CBB2144D12A00BD4F5F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED196CBA2144D12A00BD4F5F /* QuartzCore.framework */; };
 		ED196CBE2144DEC200BD4F5F /* RowsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED196CBD2144DEC200BD4F5F /* RowsModel.m */; };
+		EDD5163921680141002CC82D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD5163821680141002CC82D /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -112,7 +112,6 @@
 		ED196C4F2144324C00BD4F5F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		ED196C5121443A0D00BD4F5F /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		ED196C5321443A1300BD4F5F /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
-		ED196C5521443AA700BD4F5F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		ED196C5721443DAB00BD4F5F /* DatabaseHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
 		ED196C5821443DAB00BD4F5F /* DatabaseHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
 		ED196C5C21443E8D00BD4F5F /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
@@ -139,6 +138,7 @@
 		ED196CBA2144D12A00BD4F5F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ED196CBC2144DEC200BD4F5F /* RowsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowsModel.h; sourceTree = "<group>"; };
 		ED196CBD2144DEC200BD4F5F /* RowsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RowsModel.m; sourceTree = "<group>"; };
+		EDD5163821680141002CC82D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FF1120BEE3BB04AF9A4EA2CD /* Pods-Test App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test App/Pods-Test App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -312,7 +312,7 @@
 		ED196C50214439E800BD4F5F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ED196C5521443AA700BD4F5F /* logo.png */,
+				EDD5163821680141002CC82D /* logo.png */,
 				ED196C5321443A1300BD4F5F /* bg2.png */,
 				ED196C5121443A0D00BD4F5F /* bg.png */,
 			);
@@ -459,8 +459,8 @@
 				ED196C1D21442B8800BD4F5F /* reload_icon.png in Resources */,
 				ED196C6A21443F4C00BD4F5F /* HomeTableViewCell.xib in Resources */,
 				ED196C5221443A0D00BD4F5F /* bg.png in Resources */,
+				EDD5163921680141002CC82D /* logo.png in Resources */,
 				ED196C482144308B00BD4F5F /* Localizable.strings in Resources */,
-				ED196C5621443AA700BD4F5F /* logo.png in Resources */,
 				ED196C1E21442B8800BD4F5F /* forward_icon.png in Resources */,
 				ED196BF8214426E300BD4F5F /* LaunchScreen.storyboard in Resources */,
 				ED196C6521443F2E00BD4F5F /* MainViewController.xib in Resources */,
@@ -716,6 +716,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GNSYL8CX95;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
@@ -739,9 +740,10 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.starwalletlabs.Test-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testapplication.Test-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -752,6 +754,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GNSYL8CX95;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
@@ -775,9 +778,10 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.starwalletlabs.Test-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testapplication.Test-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;

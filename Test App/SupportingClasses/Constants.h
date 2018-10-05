@@ -3,7 +3,7 @@
 //  Test App
 //
 //  Created by Dina Mansour on 9/8/18.
-//  Copyright © 2018 StarWallet Labs. All rights reserved.
+
 //
 
 #import <Foundation/Foundation.h>
@@ -14,7 +14,7 @@
 #define NSLocalizedString(key, comment) [[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:nil]
 
 // Customized Constants
-#define ApplicationName @"StarWallet labs"
+#define ApplicationName @"Test App"
 
 #define BASEURL @"https://sheets.googleapis.com/v4/spreadsheets/1tZJ13FikGkuw_HmmTLhY9QOTyZ5DeJm6tXM7oVAYetE/values:batchGet?ranges=Sheet1!A:A&ranges=Sheet1!C:C&majorDimension=COLUMNS&key=AIzaSyATIgNaNipzppfuw-EPeYSIgZ1ysPZpUco"
 
